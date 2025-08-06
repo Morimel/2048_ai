@@ -3,6 +3,7 @@ from game import Game2048
 from model import QLearningAgent
 import matplotlib.pyplot as plt
 import pickle
+import torch
 
 env = Game2048()
 agent = QLearningAgent(action_dim=4)
